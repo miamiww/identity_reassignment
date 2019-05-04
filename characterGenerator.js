@@ -34,9 +34,9 @@ for(var i=0;i<3;i++){
 // console.log("installed printers:\n"+util.inspect(printer.getPrinters(), {colors:true, depth:10}));
 
 
+var logo_text = "Future's Market thanks you for making a successful purchase :) \n\n"
 
-
-charSheet = "Your Name: " + characterName + "\n" +"\n\n" + "All characterists on 1-10 scale: 1 is low and 10 is high" + "\n\n" +"Your characteristics: " + "\n"+character_stats + "\n\n" + "Your likes: "+ "\n" + likes + "\n\n" + "Your dislikes: "+ "\n" + dislikes;
+charSheet = logo_text + "Your Name: " + characterName + "\n" +"\n\n" + "All characterists on 1-10 scale: 1 is low and 10 is high" + "\n\n" +"Your characteristics: " + "\n"+character_stats + "\n\n" + "Your likes: "+ "\n" + likes + "\n\n" + "Your dislikes: "+ "\n" + dislikes;
 console.log(charSheet);
 f_name = 'CharacterSheet'+characterName+'.txt';
 //writes a file with the character sheet and then prints it out as a callback function
