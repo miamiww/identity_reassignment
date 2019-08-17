@@ -34,7 +34,7 @@ for(var i=0;i<3;i++){
 // console.log("installed printers:\n"+util.inspect(printer.getPrinters(), {colors:true, depth:10}));
 
 
-var logo_text = "Future's Market thanks you for making a successful purchase :) \n\n"
+var logo_text = "\n\nFuture's Market thanks you for making a successful purchase :) \nhttp://future.click\n\n"
 
 charSheet = logo_text + "Your Name: " + characterName + "\n" +"\n\n" + "All characterists on 1-10 scale: 1 is low and 10 is high" + "\n\n" +"Your characteristics: " + "\n"+character_stats + "\n\n" + "Your likes: "+ "\n" + likes + "\n\n" + "Your dislikes: "+ "\n" + dislikes;
 console.log(charSheet);
